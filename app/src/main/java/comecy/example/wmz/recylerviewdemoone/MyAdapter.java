@@ -38,6 +38,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         public TextView mTextView;
 
 
+
         public MyViewHolder(View itemView) {
             super(itemView);
             mTextView = ((TextView) itemView.findViewById(android.R.id.text1));
